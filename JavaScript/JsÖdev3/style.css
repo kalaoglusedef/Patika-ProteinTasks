@@ -1,0 +1,72 @@
+body {
+  background-color: antiquewhite;
+}
+
+#header {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.btn-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.btn-container > .btn {
+  margin-right: 20px;
+}
+
+.btn-container > .btn:last-child {
+  margin-right: 0px;
+}
+
+.menuItem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.menuItem > .comment {
+  width: 100%;
+}
+
+.menuItem > .comment > .name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 1px solid black;
+  color: red;
+}
+
+.menuItem > .comment > .menuText {
+  margin-top: 20px;
+}
+
+.menuItem > .foodImg {
+  min-width: 200px;
+  width: 200px;
+  height: 200px;
+  margin-right: 20px;
+  border-radius: 20px;
+  border: 5px solid black;
+}
+/*# sourceMappingURL=style.css.map */
